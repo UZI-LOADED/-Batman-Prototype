@@ -1,0 +1,1 @@
+// Placeholder for injector.js in payloads

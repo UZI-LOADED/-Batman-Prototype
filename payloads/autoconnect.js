@@ -1,0 +1,1 @@
+// Placeholder for autoconnect.js in payloads
