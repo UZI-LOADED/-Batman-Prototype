@@ -1,0 +1,82 @@
+🛠️ 1. Unpack the ZIP
+After downloading BatmanPrototype_Final.zip, extract it:
+
+Windows: Right-click → "Extract All"
+
+Linux/macOS:
+
+bash
+Copy
+Edit
+unzip BatmanPrototype_Final.zip
+cd BatmanPrototype
+⚙️ 2. Installation Options
+🧛‍♂️ Option A: One-Liner Setup (Linux/WSL/Kali)
+If you're running Kali Linux, Ubuntu, or any Linux-based VPS:
+
+bash
+Copy
+Edit
+curl -sL https://your-deployment-url.com/installer.sh | bash
+(Replace with real URL once deployed online)
+
+This will:
+
+Set permissions
+
+Install needed tools (Node.js, Python3 if needed)
+
+Launch the dashboard via local dev server
+
+🪟 Option B: Windows Installation
+Double-click:
+
+bash
+Copy
+Edit
+installer.bat
+It will:
+
+Launch local browser preview
+
+Set up the file environment in a dev folder
+
+Print dashboard access URL
+
+🧪 3. Usage Instructions (Example)
+Once the dashboard is running:
+
+🔹 Open your browser and go to:
+http://localhost:3000 (or specified port)
+
+🧠 Tabs Overview
+AI Brain Tab – Ask security questions, automate payload building, analyze targets.
+
+File Drop – Drag in .html, .js, .json, or .fishlet config files.
+
+Logs – View all actions and outputs. Live stream of command execution.
+
+Fishlets – Interact with various login clone UIs or red team templates.
+
+🧪 4. Example Fishlet Simulation
+Say you're testing a PayPal phishing simulation in a sandboxed environment:
+
+Click the Fishlets Tab.
+
+Choose PayPal or Stripe.
+
+It simulates rendering a login clone or input field for training purposes.
+
+Any entries show in the Logs Tab as test credentials.
+
+AI can auto-build payload based on pattern matching.
+
+🧰 5. Advanced Tools (Optional Enhancements)
+🔌 Browser Extension – Inject test JS, CSS, or observe hook responses.
+
+🧪 Payload Injector – Launch payload-builder.js manually or auto via dashboard.
+
+🔎 Auto Recon – Use autoconnect.js and AI to scan and classify input files.
+
+📡 SMS/Email Tooling – Placeholder for Twilio/sendgrid hooks in future builds.
+
