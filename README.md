@@ -37,4 +37,4 @@ Once downloaded, unzip and follow the steps in README.md or run installer.sh / i
 AP-$---->Batman Prototype U NOW >possess is indeed designed for live testing💀.
 
 
-                                                                                                    TKO=147k L=0 K0=144k
+        With proper funding donations funds we can build Robin next                                                                                            TKO=147k L=0 K0=144k
